@@ -1,0 +1,155 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #005a44;
+    border-radius: 0;
+}
+
+/* Navbar title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: px;
+    font-weight: bold;
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ebd122;
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #b2fac2;
+    border-color: #003a22;
+    background-color: #007447;
+    border-radius: 4px;
+    border:0px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #08b35ddc;
+    color: #ffffff;
+    fill: #ffffff;
+    border-color: #fff;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-color: white;
+    text-align: center;
+    color: #fff;
+    padding: 3%;
+    border-radius: 0px;
+}
+
+.jumbotron h2 {
+    font-family: "Fredericka the Great", serif;
+    font-size:50px;
+    font-weight: normal;
+    color:#003d2e;
+
+}
+
+.img-responsive{
+    width:100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: #ffffff;
+    border-color: #ffffff;
+
+    width: 100%;
+    text-align:center;
+}
+
+.card:hover {
+    background-color:#009c872d;
+}
+
+
+.btn-primary{
+    background-color:#009292;
+    border-width:0px;
+    width: 50%;;
+    height: 40px;
+    font-family:"Lato", serif;
+    
+
+}
+
+.btn-primary:hover {
+    background-color:#2eb6aa;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-height: 200px;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+    color:rgb(0, 54, 45);
+}
+
+a {
+    color: #863ee3;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.portfolio-title{
+    font-family:"Lato", serif;
+    font-weight:700;
+}
+.portfolio-description {
+    font-family:"Lato", serif;
+    text-align:justify;
+}
+
+
+.container{
+    padding:25px 0;
+}
+
+body {
+
+    font-family: "Rosario", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffffff;
+    color: #242424;
+}
